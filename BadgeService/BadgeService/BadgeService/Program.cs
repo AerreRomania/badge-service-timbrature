@@ -411,7 +411,7 @@ namespace HRUploadingApp
         //private static string connString = "Data Source=DESKTOP-HR2P137\\SQLEXPRESS;Initial Catalog=HRdb;Integrated Security=True";
           //private static string connString = "Data Source=KNSQL2014;Initial Catalog=WbmOlimpiasHR;User=sa;Password=onlyouolimpias";
         //private static string connString = "Data Source=KNSQL2014;Initial Catalog=WbmBackup;User=sa;Password=onlyouolimpias";
-         private static string connString = "Data Source=DESKTOP-VRT03OS\\SQLEXPRESS;Initial Catalog=WbmOlimpiasHR;Integrated Security=True";
+         private static string connString = "Data Source=DESKTOP-VRT03OS;Initial Catalog=WbmOlimpiasHR;User=sa;Password=sergiu123";
         public static bool IsDirectoryEmpty(string path)
         {
             IEnumerable<string> items = Directory.EnumerateFileSystemEntries(path);
@@ -668,6 +668,7 @@ namespace HRUploadingApp
                             //decimal dal = Convert.ToDecimal(row["R1DAL"]);
                             //decimal all = Convert.ToDecimal(row["R1ALL"]);
                             decimal tot = Convert.ToDecimal(row[6]);
+                            decimal all = Convert.ToDecimal(row[7]);
                             //int glupiid = Convert.ToInt32(row["R1KEY"]);
 
 
@@ -679,7 +680,7 @@ namespace HRUploadingApp
                                 cmd.Parameters.Add("@CodTipOra", SqlDbType.NVarChar).Value = codTipOra;
                                 //cmd.Parameters.Add("@Dep", SqlDbType.Int).Value = iddepartament;
                                 cmd.Parameters.Add("@R1DAL", SqlDbType.Decimal).Value = 0.0;
-                                cmd.Parameters.Add("@R1ALL", SqlDbType.Decimal).Value = 0.0;
+                                cmd.Parameters.Add("@R1ALL", SqlDbType.Decimal).Value = all;
                                 cmd.Parameters.Add("@R1TOT", SqlDbType.Decimal).Value = tot;
                                 cmd.Parameters.Add("@IdUtilizatorAdaugare", SqlDbType.Int).Value = 1;
 

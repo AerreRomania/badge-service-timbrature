@@ -1,0 +1,10 @@
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\bin\Debug\BadgeService.exe.config
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\bin\Debug\BadgeService.exe
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\bin\Debug\BadgeService.pdb
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\bin\Debug\EPPlus.dll
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\bin\Debug\EPPlus.xml
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\obj\Debug\HRUploadingApp.csprojAssemblyReference.cache
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\obj\Debug\HRUploadingApp.csproj.CoreCompileInputs.cache
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\obj\Debug\HRUploadingApp.csproj.CopyComplete
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\obj\Debug\BadgeService.exe
+C:\Users\Dematec\Documents\GitHub\badge-service-timbrature\BadgeService\BadgeService\BadgeService\obj\Debug\BadgeService.pdb
